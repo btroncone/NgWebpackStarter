@@ -1,3 +1,3 @@
-export default ngModule => {
-	require('./test.service')(ngModule);
+export default myApp => {
+	require('./test.service')(myApp);
 }
